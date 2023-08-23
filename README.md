@@ -26,6 +26,9 @@ Example use cases:
 6. **insi** reverse engineers the values you would need at the 10 probes to get high serotonin levels. 
 7. You can now induce these values at the probes to create a new high serotonin region of the brain. 
 
+## Dependencies
+torch 
+
 ## Features
 
 - Create and manage data collection probes.
