@@ -5,7 +5,7 @@
 It is Python code designed to:
 - Read in values from probes of any complex system.
 - Perform machine learning computation on the probe measurements to model an objective.
-- Suggest values for probes to output onto the system to achieve the previously mentioned objective.
+- Suggest values for probes to output onto the system to maximize the previously mentioned objective.
 
 
 Example use cases:
@@ -77,7 +77,7 @@ Finding probe values to be induced for the desired objective
 
 ```python
 import torch
-from cortex_probes import Probes, Cortex
+from insi import Probes, Cortex
 
 # Create a probe collection
 probes = Probes()
